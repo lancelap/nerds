@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=latin,cyrillic" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,500,700">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Nerds</title>
+</head>
+<body>
+  <header class="main-header">
+    <div class="container">
+      <nav class="main-nav clearfix">
+        <a class="main-logo" href="index.html">
+          <img src="img/main-logo.png" width="139" height="56" alt="Nerds Design Studio">
+        </a>
+        <ul class="main-menu">
+          <li><a href="#">Студия</a></li>
+          <li><a href="#">Клиенты</a></li>
+          <li><a href="catalog.html">Магазин</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+        <div class="cart-block">
+          <a class="icon-basket" href="">Корзина</a>
+        </div>
+      </nav>
+      <section class="inner-headline">
+        <h1>Добро пожаловать в магазин готовых макетов</h1>
+      </section>
+    </div>
+  </header>
+  <main class="container">
+    <div class="inner-columns clearfix">
+      <div class="inner-column-left">
+        <form class="catalog-form" action="">
+          <fieldset>
+            <legend>Стоимость:</legend>
+            <div class="slider">
+              <div class="range-controls">
+                <div class="bar" style="width: 70%"></div>
+                <div class="toggle min-price"></div>
+                <div class="toggle max-price" style="left: 140px"></div>
+              </div>
+            </div>
+            <div class="price-control clearfix">
+              <label class="min-coast">
+                От <input type="text" name="min-cost" value="">
+              </label>
+              <label class="max-coast">
+                До <input type="text" name="max-cost" value="">
+              </label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Сетка:</legend>
+            <ul>
+              <li>
+                <label class="catalog-form-radio">
+                  <input type="radio" name="grid" value="Адаптивная">
+                  <span class="icon-circle"></span>
+                  Адаптивная
+                </label>
+              </li>
+              <li>
+                <label class="catalog-form-radio">
+                  <input type="radio" name="grid" value="Фиксированная">
+                  <span class="icon-circle"></span>
+                  Фиксированная
+                </label>
+              </li>
+              <li>
+                <label class="catalog-form-radio">
+                  <input type="radio" name="grid" value="Резиновая">
+                  <span class="icon-circle"></span>
+                  Резиновая
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Особенности:</legend>
+            <ul>
+              <li>
+                <label class="catalog-form-checkbox">
+                  <input type="checkbox" name="grid" value="Слайдер">
+                  <span class="icon-check-off"></span>
+                  Слайдер
+                </label>
+              </li>
+              <li>
+                <label class="catalog-form-checkbox">
+                  <input type="checkbox" name="grid" value="Блок преимущества">
+                  <span class="icon-check-off"></span>
+                  Блок преимущества
+                </label>
+              </li>
+              <li>
+                <label class="catalog-form-checkbox">
+                  <input type="checkbox" name="grid" value="Новости">
+                  <span class="icon-check-off"></span>
+                  Новости
+                </label>
+              </li>
+              <li>
+                <label class="catalog-form-checkbox">
+                  <input type="checkbox" name="grid" value="Галерея">
+                  <span class="icon-check-off"></span>
+                  Галерея
+                </label>
+              </li>
+              <li>
+                <label class="catalog-form-checkbox">
+                  <input type="checkbox" name="grid" value="Корзина">
+                  <span class="icon-check-off"></span>
+                  Корзина
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <button class="btn" type="submit">Позакать</button>
+        </form>
+      </div>
+      <div class="inner-column-right">
+        <div class="catalog-sort clearfix">
+          <ul class="sort-list">
+            <span class="sort-text">Сортировать:</span>
+            <li><a href="#">По цене</a></li>
+            <li><a href="#">По типу</a></li>
+            <li><a href="#">По функционалу</a></li>
+          </ul>
+          <div class="catalog-sort-icons">
+            <span class="icon-up-dir current"></span>
+            <span class="icon-down-dir"></span>
+          </div>
+        </div>
+        <div class="catalog-items clearfix">
+          <a href="" class="catalog-item">
+            <span class="browser-circles"></span>
+            <img src="img/item1.jpg" alt="">
+            <div class="catalog-item-content">
+              <h2>Sunset</h2>
+              <p>Интернет-магазин с личным кабинетом</p>
+              <div class="btn">10 000 Р.</div>
+            </div>
+          </a>
+          <a href="" class="catalog-item">
+            <span class="browser-circles"></span>
+            <img src="img/item2.jpg" alt="">
+            <div class="catalog-item-content">
+              <h2>Sunset</h2>
+              <p>Интернет-магазин с личным кабинетом</p>
+              <div class="btn">10 000 Р.</div>
+            </div>
+          </a>
+          <a href="" class="catalog-item">
+            <span class="browser-circles"></span>
+            <img src="img/item3.jpg" alt="">
+            <div class="catalog-item-content">
+              <h2>Sunset</h2>
+              <p>Интернет-магазин с личным кабинетом</p>
+              <div class="btn">10 000 Р.</div>
+            </div>
+          </a>
+          <a href="" class="catalog-item">
+            <span class="browser-circles"></span>
+            <img src="img/item4.jpg" alt="">
+            <div class="catalog-item-content">
+              <h2>Sunset</h2>
+              <p>Интернет-магазин с личным кабинетом</p>
+              <div class="btn">10 000 Р.</div>
+            </div>
+          </a>
+          <a href="" class="catalog-item">
+            <span class="browser-circles"></span>
+            <img src="img/item5.jpg" alt="">
+            <div class="catalog-item-content">
+              <h2>Sunset</h2>
+              <p>Интернет-магазин с личным кабинетом</p>
+              <div class="btn">10 000 Р.</div>
+            </div>
+          </a>
+          <a href="" class="catalog-item">
+            <span class="browser-circles"></span>
+            <img src="img/item6.jpg" alt="">
+            <div class="catalog-item-content">
+              <h2>Sunset</h2>
+              <p>Интернет-магазин с личным кабинетом</p>
+              <div class="btn">10 000 Р.</div>
+            </div>
+          </a>
+        </div>
+        <div class="catalog-paginator">
+          <ul>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li class="active"><span>3</span></li>
+            <li ><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a class="btn" href="#">Следующая</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="main-footer">
+      <section class="footer-map">
+        <img src="img/map.jpg" alt="г. Санкт-Петербург, Б. Конюшенная, д. 19/8">
+        <section class="contacts-block">
+          <h4>Nerds Design Studio</h4>
+          <p>
+            191186, Санкт-Петербург,<br>
+            Б. Конюшенная, д. 19/8 <br>
+          </p>
+          <p class="contacts-block-tel">
+            тел. +7 (812) 666-02-66
+          </p>
+          <a href="#" class="btn">Напишите нам</a>
+        </section>
+      </section>
+      <div class="container clearfix">
+        <section class="footer-social">
+          <a class="social-btn icon-vk" href="#">Вконтакте</a>
+          <a class="social-btn icon-facebook" href="#">Фейсбук</a>
+          <a class="social-btn icon-instagramm" href="#">Инстаграм</a>
+        </section>
+        <section class="footer-frendship">
+          <h3>Давайте дружить!</h3>
+          <p>Скидка 10% для друзей из социальных сетей.</p>
+        </section>
+      </div>
+  </footer>
+</body>
+</html>
